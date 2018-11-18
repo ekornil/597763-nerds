@@ -2,11 +2,97 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Нёрдс</title>
+    <title>Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo.jpg" width="100" height="20" alt="Логотип Нёрдс">
+        </a>
+        <ul class="site-menu">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="customers.html">Клиенты</a></li>
+          <li><a href="catalog.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="basket">
+            <li class="busket-link">
+              <p>
+                <span></span><!--Здесь будет пиктограмма корзины-->
+                <a href="#">Корзина</a>
+              </p>
+            </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="conteiner">
+      <h1 class="visually-hidden">Дизайн-студия Нёрдс</h1>
+      <!--Здесь будет слайдер?-->
+      <section class="offer">
+        <h2 class="visually-hidden">Наши услуги</h2>
+        <ul class="offer-list">
+          <li class="offer-item">
+            <a href="#"><img src="img/web.jpg" width="150" height="70" alt="Вэб-сайты"></a>
+            <h3>
+              <a href="#">Веб-сайты</a>
+            </h3>
+            <p>
+              <a href="#">Мир никогда не будет прежним после того как увидит ваш сайт!</a>
+            </p>
+            <p>
+              <a class="button" href="#">Заказать</a>
+            </p>
+          </li>
+          <li class="offer-item">
+            <a href="#"><img src="img/attachment.jpg" width="150" height="70" alt="Приложения"></a>
+            <h3>
+              <a href="#">Приложения</a>
+            </h3>
+            <p>
+              <a href="#">Покорите топ-10 приложений в AppStore и Google Play</a>
+            </p>
+            <p>
+              <a class="button" href="#">Заказать</a>
+            </p>
+          </li>
+          <li class="offer-item">
+            <a href="#"><img src="img/presentation.jpg" width="150" height="70" alt="Презентации"></a>
+            <h3>
+              <a href="#">Презентации</a>
+            </h3>
+            <p>
+              <a href="#">Вы даже не подозреваете, насколько вы изумительны!</a>
+            </p>
+            <p>
+              <a class="button" href="#">Заказать</a>
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="features">
+        <h2 class="visually-hidden">Преимущества</h2>
+        <!--Здесь будет блок с преимуществами-->
+      </section>
+      <section class="partners">
+        <h2 class="visually-hidden">Партнеры</h2>
+        <!--Здесь будет блок с партнерами-->
+      </section>
+      <section class="map">
+        <h2 class="visually-hidden">Мы на карте</h2>
+        <!--Здесь будет карта-->
+      </section>
+    </main>
+    <footer class="main-footer">
+      <ul class="social-ikon">
+        <li><a class="social-button" href="#">Вконтакте</a></li>
+        <li><a class="social-button" href="#">Фейсбук</a></li>
+        <li><a class="social-button" href="#">Инстаграмм</a></li>
+      </ul>
+      <p class="social-offer">
+        <b>Давайте дружить, это выгодно!</b><br>
+        <b>Cкидка 10% для друзей из социальных сетей.</b>
+      </p>
+    </footer>
   </body>
 </html>
